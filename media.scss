@@ -1,0 +1,20 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #menswear {
+    .menswear {
+      &--left {
+        &__btn {
+          button {
+            margin: 20px 23px;
+          }
+
+        }
+      }
+    }
+  }
+}
